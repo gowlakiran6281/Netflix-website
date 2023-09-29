@@ -1,0 +1,316 @@
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+font-family: Montserrat,arial;
+}
+body{
+  background-color: rgb(133, 121, 121);
+  height: 3800px;
+  margin: 0px;
+}
+.banner{
+  background-image: url("../Netflix/Netflix.jpg");
+  width: 100vw;
+  height: 100vh;
+    background: linear-gradient(0deg,black, #ffffff00, black), url(../Netflix/Netflix.jpg);
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.netflix-logo{
+  width: 120px;
+  padding-left: 100px;
+}
+.button-english{
+  width: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  /* color: white; */
+ /* border: 10px; */
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  /* border-radius: 4px; */
+  font-size: 15px;
+font-weight: 600;
+margin-left: 10px;
+}
+.button-english:hover{
+  /* background-color: black; */
+  /* color: white; */
+
+}
+.button-english:active{
+  opacity: 0.25;
+}
+.icon-and-lang{
+  display: flex;
+}
+.button-signin{
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(237, 18, 18);
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.father{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.image{
+  width: 600px;
+  height: 400px;
+}
+.matter{
+  margin-top: 200px;
+  color: white;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.head2{
+  display: flex;
+  padding-right: 100px;
+  gap: 30px;
+
+}
+.sele{
+  width: 80px;
+  outline: none;
+  border: none;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0 .5rem; */
+  margin-right: 2px;
+  /* padding: 10px; */
+  background-color: black;
+  color: white;
+  /* padding-right: 10px; */
+  /* border-style: solid; */
+  margin-top: 12px;
+}
+.header-page-title{
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+.header-page-description-1{
+  color: white;
+margin-left: 20%;
+font-size: 35px;
+}
+.header-page-description-2{
+  color: white;
+margin-left: 12%;
+font-size: 20px;
+}
+.Email-buttom{
+  width: 350px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgb(27, 22, 22);
+  color: white;
+}
+::placeholder{
+  font-size: 18px;
+}
+.get-button{
+  width: 180px;
+  padding: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  background-color: red;
+  border-style: solid;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+.buttons-title-page-foot{
+display: flex;
+gap: 20px;
+padding-top: 20px;
+padding-left: 200px;
+}
+.home-page-info{
+padding-left: 180px;
+padding-top:130px ;
+}
+.second-page-info{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  background-color: black;
+  width: 100vw;
+  height: 80vh;
+margin: 0;
+margin-top: 10px;
+}
+.second-page-title{
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+padding-left: 100px;
+padding-top: 100px;
+
+}
+.second-page-content{
+  color: white;
+  width:600px ;
+  font-weight: 600;
+  font-size:20px ;
+  padding-left:100px ;
+}
+.second-page-image{
+  padding-left: 120px;
+}
+.second-page-description{
+  padding-top: 100px;
+}
+.third-page-content{
+  color: white;
+  width:600px ;
+  font-weight: 600;
+  font-size:20px ;
+  padding-left:100px ;
+}
+.third-page-image{
+  padding-left: 120px;
+}
+.third-page-description{
+  padding-top: 100px;
+}
+
+.third-page-info{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  background-color: black;
+  width: 100vw;
+  height: 80vh;
+margin: 0;
+margin-top: 10px;
+}
+.third-page-title{
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+padding-left: 100px;
+padding-top: 100px;
+
+}
+.footerabove{
+  background-color: black;
+  width: 100vw;
+  height: 20vh;
+margin: 0;
+margin-top: 10px;
+padding-top: 5%;
+}
+
+.fotter-1{
+
+margin-top: 20px;
+background-color: black;
+width: 100vw;
+height: 70vh;
+margin: 0;
+margin-top: 10px;
+padding-top: 100px;
+
+}
+.fot{
+  display: flex;
+  justify-content: space-around;
+}
+
+.content{
+
+color: white;
+justify-content: space-around;
+cursor: pointer;
+text-decoration: underline;
+}
+.fotter-title{
+  color: white;
+  padding-bottom: 30px;
+  margin-left: 80px;
+}
+.buttom-select{
+  margin-top: 40px;
+  margin-left: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  color: white;
+}
+
+.end-fotter{
+  color: white;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+ .tran{
+  display: flex;
+  gap: 10px;
+  border:3px solid rgb(55, 52, 52);
+  height: 40px;
+  border-style: solid;
+  background-color: black;
+  border-radius: 4px;
+ border-color: rgb(95, 85, 85);
+ 
+}
+.tran:hover{
+  border: 5px solid red;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+ 
+
+}
+
+.icon {
+  /* padding: 10px; */
+  padding-top: 5px;
+  color: green;
+  min-width: 50px;
+  text-align: center;
+margin-bottom: 10px;
+}
+
+.icon{
+  fill: white;
+  margin-top: 5px;
+
+}
+
